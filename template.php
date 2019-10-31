@@ -42,20 +42,21 @@
 		<div style="border:1px solid black;height:50px;width:0px;position:absolute;right:100px;top:5px;" id="div"></div>
 		<input type="submit" id="login" name="submit" value='Login'  onclick="Login()" class="btn" style="border-radius:20px;background-color:#252b37;color:white;font-weight: bold;right:110px;position:absolute;top:10px;">
 </div>
+
  <div id="myModal" class="modal">
             <CENTER>
 	            	<div class="card" style="width:400px;top:-80px;">
 	            			<div class="card-header">
-							    <h4>Register</h4>
+							    <h4>Login</h4>
 							  </div>
 							  <br>
-		               		<input type="text" class="form-control" name="gmail" placeholder="Register through Google Account" style="width:300px;">
+		               		<input type="text" class="form-control" name="gmail" placeholder="Username" style="width:300px;">
 		               		<br>
-		               		<input type="password" class="form-control" name="gmail" placeholder="Type your password" style="width:300px;">
+		               		<input type="password" class="form-control" name="gmail" placeholder="Password" style="width:300px;">
 		               		<br>
 		               		<input type="password" class="form-control" name="gmail" id="retype" placeholder="Retype your password" style="width:300px;">
 		               		<br>
-		                <input type="button" class="btn" value="okay" name="close" id="close" style="background-color:#24a787;color:white;width:200px;">
+		                <input type="button" class="btn" value="Login" name="close" id="close" style="background-color:#24a787;color:white;width:200px;">
 		                <br>
 		                
 	                </div>
@@ -65,12 +66,13 @@
 </html>
 <script type="text/javascript">
 	function register(){
-		 document.getElementById('myModal').style.display='block';
-            var close = document.getElementById('close');
-            close.onclick = function(){
-                 document.getElementById('myModal').style.display='none';
-                 window.location.href='register.php';
-            }
+		//  document.getElementById('myModal').style.display='block';
+        //     var close = document.getElementById('close');
+        //     close.onclick = function(){
+        //          document.getElementById('myModal').style.display='none';
+        //          window.location.href='register.php';
+        //     }
+		window.location.href='registration.php';
 	}
 	function Logout(){
 		window.location.href='./Logout.php';

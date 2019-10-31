@@ -9,6 +9,7 @@ if(isset($_SESSION['already_register'])){
 	document.getElementById('cardTop').style.display='block';
 	document.getElementById('Logout').style.display='block';
 	document.getElementById('title').style.top='100';
+	document.getElementById('AddFarm').style.display='block';
 	</script>";
 }else{
 	echo "<script type='text/javascript'>
@@ -71,8 +72,14 @@ div#slider figure {
 <form>
 	<div style="width:400px;height:400px;left:900px;top:160px;position:absolute;background-color:#f6f7f9;" class="card">
 		<center>
-		<div class="header" style="box-shadow: 1px 2px 4px rgba(0,0,0,.2);padding:10px;" id="header"><h4>Search</h4></div>
-		<img src="./images/search.png" width="40" height="40" style="position:absolute;top:5px;left:250px;">
+		<div class="header" style="box-shadow: 1px 2px 4px rgba(0,0,0,.2);padding:10px; width: 399px; height:50px;" id="header">
+			<a href="landInfo.php"> 
+				<div id="AddFarm" <?php if(isset($_SESSION['already_register'])){ echo 'style="float:right; display:block;"';} else {echo 'style="float:right; display:none;"';} ?> >
+					<img src="images/addbutton.png" width="25px" height="25px">
+					<b> <label> Add Farm </label> </b>
+				</div>
+			</a>
+		</div>
 		<br>
 		<input type="text" name="address" placeholder="Seek Area" class="form-control" style="width:300px;">
 		<br>
@@ -87,7 +94,7 @@ div#slider figure {
 		<h5>Filter</h5><select name="filter">
 			<option value="For Sale">for lease</option>
 			<option value="For Lease">for sale</option>
-			<option value="Government owned">Government owned</option>
+			<option value="For investment"> for investment </option>
 		</select>
 		</center>
 	</div>
@@ -97,4 +104,6 @@ Copyright &copy; 2019 Team PennyWise
 </div>
 </body>
 </html>
+
+<script type="text/javascript">
 </script>
