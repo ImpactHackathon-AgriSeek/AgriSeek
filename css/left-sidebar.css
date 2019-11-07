@@ -1,0 +1,25 @@
+/* LEFT SIDEBAR */
+
+.left-sidebar {
+    /* background-color: #447741; */
+    position: fixed;
+    padding: 10px 10px;
+    top: 60px;
+    left: 0px;
+    margin-left: 0px;
+    width: 10%;
+    height: 100%;
+}
+
+.left-sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.left-sidebar a.active {
+    color: #447741;
+}
+
+.left-sidebar a:hover {
+    color: green;
+}

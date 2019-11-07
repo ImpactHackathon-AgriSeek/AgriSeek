@@ -1,0 +1,27 @@
+* {box-sizing: border-box}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CONTENT */
+
+.content {
+    margin-left: 10%;
+    margin-top: 70px;
+    width: 65%;
+    font-size: 18px;
+    padding: 0px 10px;
+    /* overflow: hidden; */
+}
+
+.content p {
+    text-align: justify;
+}
+
+.imgslide {
+    max-width: 400px;
+}
+
+
+

@@ -1,0 +1,21 @@
+/* RIGHT SIDEBAR */
+
+.right-sidebar {
+    /* background-color: #447741; */
+    position: fixed;
+    padding: 10px 10px;
+    top: 60px;
+    right: 0px;
+    margin-right: 0px;
+    width: 25%;
+    height: 100%;
+}
+
+.right-sidebar a {
+    text-decoration: none; 
+    color: rgb(0, 174, 255);
+}
+
+.right-sidebar a:hover {
+    color: green;
+}

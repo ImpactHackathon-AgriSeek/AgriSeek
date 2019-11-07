@@ -1,0 +1,141 @@
+.content {
+    margin-bottom: 150px;
+}
+
+.content.thumbnails {
+    width:30%; height:auto; border: solid grey 1px; padding: 10px; border-radius: 7px; text-align: center; font-size: 12px; overflow:hidden; float:left; margin-right: 20px; margin-bottom: 150px;
+}
+
+.thumbnails a:hover {
+    opacity: 0.5;
+}
+
+/* MY FARM */
+
+.content button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    float: right;
+    border-radius: 7px;
+}
+
+/* NEW FARM */
+
+.content input[type="text"] {
+    width: 100%;
+    padding: 10px 10px;
+    border: solid 1px;
+    border-color: grey;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.content select {
+    width: 100%;
+    padding: 10px 10px;
+    border: solid 1px;
+    border-color: grey;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.content input[type="file"] {
+    width: 100%;
+    padding: 10px 10px;
+    border: solid 1px;
+    border-color: grey;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.left-portion {
+    float: left;
+    width: 50%;
+    /* padding: 10px 10px; */
+}
+
+.right-portion {
+    width: 50%;
+    float: left;
+    left: 42%;
+}
+
+#label {
+    /* width: 100%; */
+    padding: 5px 0px 21px 0px;
+    /* background-color: grey; */
+}
+
+#agree-portion {
+    margin: auto;
+    width: 50%;
+    color: red;
+}
+
+#lower-portion {
+    margin-left: 45%;
+}
+
+#lower-portion input[type="submit"] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+
+/* FARM */
+
+.content input[type="search"] {
+    width: 35%;
+    padding: 10px 10px;
+    border: solid 1px;
+    border-color: grey;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.content input[type="submit"] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 7px;
+}
+
+/* INVESTMENTS */
+
+.content #fundinglabel {
+    float: left;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
